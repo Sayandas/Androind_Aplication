@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic8.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic8.png"
+    },
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_lacfgv.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_lacfgv.png"
+    },
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\iconn.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\iconn.png"
+    },
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launch.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launch.png"
+    },
+    {
+        "merged": "E:\\PlayerNAme2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\PlayerNAme2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

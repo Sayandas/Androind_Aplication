@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#FAFCFC"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sayan.playername.MainActivity">
+
+    <TextView
+        android:text="00"
+        android:textSize="100dp"
+        android:textColor="#42232D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="G  U  E  S  S - P  L  A  Y  E  R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="O K"
+        android:layout_width="wrap_content"
+        android:textColor="#E9E1E4"
+        android:background="#85777E"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="press start button to play"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#B24610"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:text="C h a n c e : 3"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="34dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#4D3943"
+        android:text="enter cricket player  name"
+        android:textColor="#c6c8d5"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="S T A R T"
+        android:textColor="#E9E1E4"
+        android:background="#85777E"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:text="H I N T"
+        android:textColor="#E9E1E4"
+        android:textStyle="bold"
+        android:background="#85777E"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="19dp"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="E X I T"
+        android:textStyle="bold"
+        android:layout_width="165dp"
+        android:textColor="#E9E1E4"
+        android:background="#85777E"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toEndOf="@+id/button4"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:text="R E S E T"
+        android:layout_width="wrap_content"
+        android:textColor="#E9E1E4"
+        android:textStyle="bold"
+        android:background="#85777E"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="H E L P"
+        android:background="#EBEFEF"
+        android:textColor="#A8B3B4"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/button7"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignEnd="@+id/button5" />
+</RelativeLayout>
+
